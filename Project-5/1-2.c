@@ -21,11 +21,12 @@ int main()
                     {
                         if(a[i][j]>large)
                         {
-                            printf("large element : %d",array[i][j]);
+                            large=a[i][j];
                         }
                     }
                         
                 }
+                printf("largest element :%d", large);
         }
           
 }

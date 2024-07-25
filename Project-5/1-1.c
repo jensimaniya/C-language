@@ -18,7 +18,7 @@ int main()
                 {
                     if(array[i]<0)
                         {
-                            printf("negative : %d",&array[i]);
+                            printf("negative : %d\n",&array[i]);
                         }
                     
                 }
