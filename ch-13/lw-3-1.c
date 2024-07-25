@@ -9,8 +9,6 @@ int main()
 
     int a[r][c];
     elements=r*c;
-
-    
     
     for(int i=0;i<r;i++)
     {
