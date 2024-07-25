@@ -9,7 +9,7 @@ int main()
     int array[n]
     for(int i=0;i<=n;i++)
         {
-            printf("enter a[%d]",i);
+            printf("enter array[%d]",i);
             scanf("%d",&array[i]);
 
             if(array[i]>big)
