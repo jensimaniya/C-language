@@ -1,11 +1,11 @@
 #include<stdio.h>
-#include<conio.h>
-main()
+
+int main()
 {
 	float p;
 	float r;
 	float n;
-	clrscr();
+	
 	printf("Enter value of p=");
 	scanf("%f",&p);
 	printf("Enter value of r=");
@@ -13,5 +13,5 @@ main()
 	printf("Enter value of n=");
 	scanf("%f",&n);
 	printf("The Simple interest=%.2f",(p*r*n)/100);
-	getch();
+	
 }
