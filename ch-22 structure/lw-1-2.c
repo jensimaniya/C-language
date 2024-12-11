@@ -35,15 +35,15 @@ int main()
         scanf("%s", &e[i].cpyname);
     }
 
-    for(int i = 0; i < n; i++)
-    {
-        printf("\nEmployee %d:\n", i+1);
-        printf("ID: %d\n", e[i].id);
-        printf("Name: %s\n", e[i].name);
-        printf("Age: %d\n", e[i].age);
-        printf("Role: %s\n", e[i].role);
-        printf("City: %s\n", e[i].city);
-        printf("Experience: %d\n", e[i].exp);
-        printf("Company Name: %s\n", e[i].cpyname);
-    }
+    // for(int i = 0; i < n; i++)
+    // {
+    //     printf("\nEmployee %d:\n", i+1);
+    //     printf("ID: %d\n", e[i].id);
+    //     printf("Name: %s\n", e[i].name);
+    //     printf("Age: %d\n", e[i].age);
+    //     printf("Role: %s\n", e[i].role);
+    //     printf("City: %s\n", e[i].city);
+    //     printf("Experience: %d\n", e[i].exp);
+    //     printf("Company Name: %s\n", e[i].cpyname);
+    // }
 }

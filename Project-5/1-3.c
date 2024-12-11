@@ -39,10 +39,9 @@ int main()
                         for(j=0; j<c; j++)
 
                        {
+                            printf("\t%d", b[i][j]);
 
-                       printf("\t%d", b[i][j]);
-
-                          }
+                        }
                     }
       
 
